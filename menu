@@ -170,7 +170,7 @@ do
 			break
 			;;
 		"Update")
-			wget -O update https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/update && chmod +x update && ./update
+			wget -O update https://raw.githubusercontent.com/rasta-team/MyScript/master/config/update && chmod +x update && ./update
 			;;
         "Quit")
             break
