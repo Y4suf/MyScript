@@ -1,0 +1,31 @@
+            #!/bin/bash
+            # Created by rasta-team.net
+            
+            red='\e[1;31m'
+            green='\e[0;32m'
+            NC='\e[0m'
+            echo "Connecting to rasta-team.net..."
+            sleep 0.2
+            echo "Checking Permision..."
+            sleep 0.3
+            echo -e "${green}Permission Accepted...${NC}"
+            sleep 1
+            echo""
+
+
+            echo "===============================================";
+            echo " ";
+            if [ -e "/root/log-limit.txt" ]; then
+            echo "User yang dikick oleh user-limit adalah";
+            echo "Waktu - Username - Jumlah Multilogin"
+            echo "-------------------------------------";
+            cat /root/log-limit.txt
+            else
+            echo " Tidak ada user yang melakukan pelanggaran"
+            echo " Atau"
+            echo " Script user-limit belum dijalankan"
+            fi
+            echo " ";
+            echo "===============================================";
+            echo "Script Created by rasta-team.net";
+            echo "Terima kasih sudah berlanggan di rasta-team.net";
