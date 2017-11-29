@@ -119,7 +119,7 @@ Whatsapp : 0169872312
 
 ";
 PS3='Please enter your choice: '
-options=("Add User" "Renew User" "Delete User" "Current Users Dropbear" "User List" "Ram Status" "Users Not Expired" "Expired Users" "Used Data By Users" "Users Status Openvpn" "Quit")
+options=("Add User" "Renew User" "Delete User" "Current Users Dropbear" "User List" "Ram Status" "Users Not Expired" "Expired Users" "Used Data By Users" "Users Status Openvpn" "Update" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -168,6 +168,9 @@ do
 	        "Users Status Openvpn")
 			status
 			break
+			;;
+		"Update")
+			wget -O update https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/update && chmod +x update && ./update
 			;;
         "Quit")
             break
