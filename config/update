@@ -70,48 +70,6 @@ wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/user-list
 mv ./user-list /usr/local/bin/user-list
 chmod +x /usr/local/bin/user-list
 
-# instal Buat Akun SSH/OpenVPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/buatakun
-mv ./buatakun /usr/bin/buatakun
-chmod +x /usr/bin/buatakun
-
-# instal Generate Akun SSH/OpenVPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/generate
-mv ./generate /usr/bin/generate
-chmod +x /usr/bin/generate
-
-# instal Generate Akun Trial
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/trial
-mv ./trial /usr/bin/trial
-chmod +x /usr/bin/trial
-
-# instal  Ganti Password Akun SSH/VPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userpass
-mv ./userpass /usr/bin/userpass
-chmod +x /usr/bin/userpass
-
-# instal Generate Akun SSH/OpenVPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userrenew
-mv ./userrenew /usr/bin/userrenew
-chmod +x /usr/bin/userrenew
-
-# instal Hapus Akun SSH/OpenVPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userdelete
-mv ./userdelete /usr/bin/userdelete
-chmod +x /usr/bin/userdelete
-
-# instal Cek Login Dropbear & OpenSSH
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userlogin
-mv ./userlogin /usr/bin/userlogin
-chmod +x /usr/bin/userlogin
-
 # instal Cek Login Dropbear, OpenSSH & OpenVPN
 cd
 wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userlogin
@@ -135,12 +93,6 @@ cd
 wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userdetail
 mv ./userdetail /usr/bin/userdetail
 chmod +x /usr/bin/userdetail
-
-# instal Delete Akun Expire
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/deleteuserexpire
-mv ./deleteuserexpire /usr/bin/deleteuserexpire
-chmod +x /usr/bin/deleteuserexpire
 
 # instal  Kill Multi Login
 cd
@@ -183,36 +135,6 @@ cd
 wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/logban
 mv ./logban /usr/bin/logban
 chmod +x /usr/bin/logban
-
-# instal Buat Akun PPTP VPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/useraddpptp
-mv ./useraddpptp /usr/bin/useraddpptp
-chmod +x /usr/bin/useraddpptp
-
-# instal Hapus Akun PPTP VPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userdeletepptp
-mv ./userdeletepptp /usr/bin/userdeletepptp
-chmod +x /usr/bin/userdeletepptp
-
-# instal Lihat Detail Akun PPTP VPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/detailpptp
-mv ./detailpptp /usr/bin/detailpptp
-chmod +x /usr/bin/detailpptp
-
-# instal Cek login PPTP VPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/userloginpptp
-mv ./userloginpptp /usr/bin/userloginpptp
-chmod +x /usr/bin/userloginpptp
-
-# instal Lihat Daftar User PPTP VPN
-cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/alluserpptp
-mv ./alluserpptp /usr/bin/alluserpptp
-chmod +x /usr/bin/alluserpptp
 
 # instal Set Auto Reboot
 cd
