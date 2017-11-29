@@ -17,8 +17,7 @@ red='\e[1;31m'
                
 			   echo -e "${green}Permission Accepted...${NC}"
                sleep 1
-
-
+	       
 flag=0
 
 #iplist="ip.txt"
