@@ -19,7 +19,7 @@ flag=0
 	
 #iplist="ip.txt"
 
-wget --quiet -O iplist.txt https://raw.githubusercontent.com/rasta-team/MyVPS/master/ip.txt
+wget --quiet -O iplist.txt https://raw.githubusercontent.com/rasta-team/MyScript/master/ip.txt
 
 #if [ -f iplist ]
 #then
@@ -276,13 +276,13 @@ cd
 
 # instal UPDATE SCRIPT
 cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/config/update
+wget https://raw.githubusercontent.com/rasta-team/MyScript/master/config/update
 mv ./update /usr/bin/update
 chmod +x /usr/bin/update
 
 # Install Menu
 cd
-wget https://raw.githubusercontent.com/rasta-team/MyVPS/master/menu
+wget https://raw.githubusercontent.com/rasta-team/MyScript/master/menu
 mv ./menu /usr/local/bin/menu
 chmod +x /usr/local/bin/menu
 
